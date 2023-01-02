@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.bigcont {
+  background-color: #761c38;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100v;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.title{
+  font-size: 1.2rem;
+  color: #fff !important;
+}
+
+.match-container {
+  margin: 20px 0;
+}
+
+.match-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.seat {
+  background-color: #fff;
+  height: 25px;
+  width: 30px;
+  margin: 2.5px;
+  font-size: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.seat.sold {
+  background-color: #444451;
+}
+
+.seat:not(.sold):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.sold):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-48deg);
+}
+
+.stadium{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+p.text {
+  margin: 5px 0;
+}
+
+p.text span {
+  color: rgb(158, 248, 158);
+}
+
+.disappear {
+  display: none;
+}
+
+
+.btn {
+  margin-left: 18rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Poppins", "Noto Sans Regular", "Helvetica Neue", Arial,
+    sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  width: 10rem;
+  padding: .5rem 0;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: #ffffff !important;
+  border: solid #761c38;
+  background: transparent;
+  background-image: url("../../img/button.png");
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.5s ease;
+  color: #ffffff;
+}
+
+.btn button:hover {
+  background-color: #660221;
+  box-shadow: 0 0.3rem 1.3rem #b11534;
+  color: #ffffff;
+  transition: background-color 0.4s;
+}

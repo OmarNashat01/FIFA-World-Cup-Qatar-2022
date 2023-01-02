@@ -1,0 +1,10 @@
+
+.container h1{
+    color:  #e38d2a !important;
+    font-family: "Poppins","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: .12rem;
+    margin-left: 2.5em;
+    text-align: center;
+}
